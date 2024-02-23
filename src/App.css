@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    padding: 30px;
+    background-image: url('https://picsum.photos/200/300');
+}
+.box-wrapper {
+    width: 592px;
+    height: 610px;
+    margin: 140px auto;
+    position: relative;
+}
+.box-wrapper img {
+    width: 80%;
+}
+.svg {
+ width: 100px;
+ height: 130px;
+ position: absolute;
+ top: -70px;
+}
+.play {
+    position: absolute;
+    height: 150px;
+    top: 100px;
+    left: 160px;
+}
+button {
+    width: 260px;
+    height: 62px;
+    background: #2463FF ;
+    color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 24px;
+  position: absolute;
+top: 280px;
+right:210px;
+}
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.back {
+    width: 200px;
+}
+.How {
+    width: 600px;
+    height: 70px;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto;
+
+}
+.card {
+    width: 340px;
+    height: 500px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background: #fff;
+    padding: 20px 10px;
+}
+.card h2 {
+    font-weight: 400;
+    font-size: 88px;
+    color: #2463FF;
+}
+.card h3 {
+    color:  #261676;
+font-size: 40px;
+}
+.card p {
+    color: #887DC0;
+    font-size: 24px;
+}
+.btn, .information span {
+    width: 80px;
+    height: 54px;
+    border-radius: 24px;
+    color: #261676;
+    background: #fff;
+}
+.information {
+    width: 80%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 32px;
+    text-align: center;
+    margin:  auto;
+}
+.information span {
+    background: #261676;
+    color: #fff;
+    width: 112px;
+    height: 60px;
+    padding: 10px;
+}
+.typing {
+    width: 85%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 36px;
+}
+  
+.delete {
+    background: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
